@@ -1,0 +1,75 @@
+body{
+  padding: 0px 30px 0px 30px;
+  margin-right: 148px;
+  margin-left: 148px;
+}
+
+.site-top h1 {
+  letter-spacing: 4px;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.direction .photos {
+  display: inline-block;
+}
+
+.direction {
+  width: 450px;
+  height: 500px;
+  float: left;
+}
+
+.user_feature {
+  font-size: small;
+}
+
+.instruction {
+  padding-bottom: 6px;
+}
+
+.direction h2, .photos h2{
+  text-indent: 160px;
+}
+
+.photos {
+  float: right;
+  padding-left: 100px;
+  width: 450px;
+  height: 530px;
+}
+
+.site-bottom {
+  float: left;
+  padding-top: 10px;
+}
+
+.photo {
+  border-radius: 25px;
+  box-shadow: 10px 2px 20px;
+}
+
+.instruction:hover{
+  color: red;
+}
+
+.photo:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.highlight{
+  background-color: cyan;
+}
+
+.show_button{
+  position: absolute;
+  top: 2300px;
+  right: 400px;
+}
